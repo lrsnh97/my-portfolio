@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400");
+
+body {
+  background-color: rgba(97, 97, 97, 0.322);
+  font-family: Roboto;
+}
+.navbar {
+  background-color: hsla(0, 0%, 0%, 0.733);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-center {
+  width: 90vw;
+  max-width: 1200px;
+}
+.nav-header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-btn {
+  padding: 0.15rem 0.75rem;
+  box-shadow: 2px 4px 2px black;
+  background-color: rgb(238, 231, 231);
+  cursor: pointer;
+  transition: 0.3 ease-in-out all;
+  border: black;
+  border-radius: 0.1rem;
+}
+
+.nav-btn:hover {
+  background-color: rgba(201, 195, 195, 0.733);
+}
+.nav-btn svg {
+  font-size: 1.5rem;
+}
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3 ease-in-out all;
+}
+.show-links {
+  height: 18rem;
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 0;
+  border-top: 1px solid black;
+  transition: 0.3s ease-in-out all;
+}
+.nav-link:hover {
+  color: hsla(0, 0%, 100%, 0.322);
+}
+.toggle-button {
+  display: flex;
+}
+@media screen and (min-width: 650px) {
+  .navbar {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-center {
+    display: flex;
+    align-items: center;
+  }
+  .nav-header {
+    padding: 0;
+    margin-right: 2rem;
+    height: auto;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  .nav-links {
+    height: auto !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-link {
+    padding: 0;
+    border-top: none;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+  }
+}
