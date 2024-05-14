@@ -4,6 +4,8 @@ body {
   background-color: rgba(97, 97, 97, 0.322);
   font-family: Roboto;
 }
+
+/*NAVBAR*/
 .navbar {
   background-color: hsla(0, 0%, 0%, 0.733);
   border-radius: 0.5rem;
@@ -56,7 +58,7 @@ body {
   font-size: 1.5rem;
   text-transform: capitalize;
   padding: 1rem 0;
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(255, 255, 255);
   transition: 0.3s ease-in-out all;
 }
 .nav-link:hover {
@@ -98,4 +100,37 @@ body {
     margin-right: 3rem;
     font-size: 1.3rem;
   }
+}
+
+/*footer*/
+.footer {
+  background-color: hsla(0, 0%, 0%, 0.733);
+  color: white;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-icon {
+  font-size: 24px;
+}
+
+.email-address {
+  margin-top: 0.5rem;
+}
+
+/*homepage*/
+.div-home {
+  text-align: center;
 }
