@@ -8,6 +8,17 @@ export default function Home() {
       <div className="div-home">
         <h1>Willkommen auf meiner Portfolio-Website</h1>
         <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>lorem</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
+        <p>Hier kannst du bald meine Projekte und mehr entdecken.</p>
       </div>
     </Layout>
   )
