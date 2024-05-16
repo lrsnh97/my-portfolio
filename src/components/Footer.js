@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <p>
-          {new Date().getFullYear()} • Softwareentwickler • Lars Jaud •
+          {new Date().getFullYear()} • Softwaredeveloper • Lars Jaud •
           Berlin-Mitte • &copy;
         </p>
         <div className="email-container">

@@ -6,13 +6,10 @@ import "../assets/css/main.css"
 
 const Layout = ({ children }) => {
   return (
-    <div className="div-layout">
+    <div>
       <Navbar />
       <Background />
-      <div className="main-container">
-        <main className="main-layout">{children}</main>
-      </div>
-      <Footer />
+      <main>{children}</main>
     </div>
   )
 }
