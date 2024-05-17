@@ -19,7 +19,6 @@ const ProjectsList = ({ projects = [] }) => {
                 className="project-img"
               />
             </Link>
-            <p>{technologien}</p>
           </div>
         )
       })}
